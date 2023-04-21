@@ -27,6 +27,7 @@ public class Board extends JFrame {
         for (int i=0;i<8;i++) {
             for (int j = 0; j < 8; j++) {
                 this.add(piece[i][j]= new JButton());
+                piece[i][j].setFocusable(false);
             }
         }
         for(int i=0;i<8;i++)
