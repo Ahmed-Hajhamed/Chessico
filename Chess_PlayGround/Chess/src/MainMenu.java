@@ -60,7 +60,7 @@ public class MainMenu extends JFrame implements ActionListener {
     if(e.getSource() == start)
     {
         this.dispose();
-        new Board();
+        new Game();
     }
 
     }

@@ -15,30 +15,27 @@ public class Rook extends Non_King {
 
     @Override
     public int[] Moves(Pieces piece) {
-        if (piece.ordinal() == 0) {
+        int position_temp=position;
+        if (piece.ordinal() == 0 || piece.ordinal()==1) {
             int i = 0;
-            int j = 1;
-            int k = 1;
-            int l = 1;
             while (i < 14) {
-                while (position % 8 != 7) {
-                    valid[i] = position + j;
-                    i++;
-                    j++;
+                while (position_temp % 8 != 7) {
+                    valid[i] = position_temp= position_temp + 1;
+                    i++;;
                 }
-                while (position % 8 != 0) {
-                    valid[i] = position - k;
-                    i++;
-                    k++;
-                }
-                while ((position + 8 * l) / 8 != 7) {
-                    valid[i] = position + 8 * l;
-                    l++;
+                position_temp=position;
+                while (position_temp % 8 != 0) {
+                    valid[i] = position_temp= position_temp - 1;
                     i++;
                 }
-                while ((position + 8 * l) / 8 != 0) {
-                    valid[i] = position - 8 * l;
-                    l++;
+                position_temp=position;
+                while ((position_temp+8) / 8 != 8) {
+                    valid[i] =position_temp= position_temp + 8;
+                    i++;
+                }
+                position_temp=position;
+                while (position_temp / 8 != 0) {
+                    valid[i] = position_temp=position_temp - 8;
                     i++;
                 }
 
@@ -49,6 +46,7 @@ public class Rook extends Non_King {
 
     @Override
     public void validMoves(Tile[] board , JButton[] tile) {
+
         for (int i=0; i<14 ; i++)
         {
             if (board[valid[i]].isOccupied())
