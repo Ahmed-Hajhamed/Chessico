@@ -93,6 +93,12 @@ public class Board extends JFrame implements ActionListener {
                             Game.pieces[1].validMoves(Game.board, piece);
                             break;
                         }
+                        case QueenB: {
+                        	 Game.pieces[2].Moves(Pieces.QueenB);
+                             Game.pieces[2].validMoves(Game.board, piece);
+                             break;
+                        	
+                        }
                     }
                 }
             }
