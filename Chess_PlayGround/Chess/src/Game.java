@@ -6,7 +6,8 @@ public class Game {
         new Board();
     }
     static Tile[] board=new Tile[64];
-    static Non_King[] pieces=new Non_King[2];
+    static Non_King[] pieces=new Non_King[3];
+    //static Non_King[] pieces2=new Non_King[2];
      void setBoard()
     {
 
@@ -70,7 +71,25 @@ public class Game {
        Rook b_rook2=new Rook(Side.Black,7);
        pieces[0]=b_rook1;
        pieces[1]=b_rook2;
+       
+       Queen queen_b=new Queen(Side.Black,3);
+      // Queen queen_w=new Queen(Side.White,59);
+       pieces[2]= queen_b;
+       //pieces[3]= queen_w;
+       
+      
        return pieces;
     }
+    
+   /* Non_King[] createPieces2()
+    {
+    Queen queen_b=new Queen(Side.Black,3);
+    Queen queen_w=new Queen(Side.White,59);
+    pieces[3]= queen_b;
+    pieces[59]= queen_w;
+    
+    return pieces;
+    }
+    */
 }
 
