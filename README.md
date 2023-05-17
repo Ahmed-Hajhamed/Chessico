@@ -99,6 +99,12 @@ Email: youssefmm2003@gmail.com
 
 Email: zisco2002@gmail.com
 
+Email: almatador.egy@gmail.com
+
+Email: omar.khaled_eg@yahoo.com
+
+Email: ahmedadilelhaseeny@gmail.com
+
 ## Roadmap
 
 - Linking user account to a database
