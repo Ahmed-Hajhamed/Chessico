@@ -10,6 +10,7 @@ It is a chess game but not like any normal chess , it has some modifications as 
 - [Usage]
 - [Authors]
 - [Modified Moves]
+- [Screenshots}
 - [Support]
 - [Roadmap]
 - [Changelog]
@@ -50,6 +51,19 @@ Pawn promotion: if the pawn reach the other end of the board , it can be replace
 - Pawn: Can eat the piece in the square in front of it
 - Bishop:  can move one square horizontally / moves only three squares on the diagonal and can jump over a piece in his way. 
 - Knight: can  move  in  an  L  shape,  with  two  squares  horizontally  or  vertically,  and then  three  squares  in  the  perpendicular  direction.
+
+## ScreenShots
+![Alt LoginPage](./ReadmeImages/LoginPage.png)
+![Alt LaunchPage](./ReadmeImages/LaunchPage.png)
+![Alt Settings](./ReadmeImages/Settings.png)
+![Alt Board](./ReadmeImages/Board.png)
+![Alt PawnMovement](./ReadmeImages/PawnMovement.png)
+![Alt BishopMovement](./ReadmeImages/BishopMovement.png)
+![Alt BlackKnightMovement](./ReadmeImages/BlackKnightMovement.png)
+![Alt WhitePawnPromotion](./ReadmeImages/WhitePawnPromotion.png)
+![Alt PromotedWhitePawn](./ReadmeImages/PromotedWhitePawn.png)
+![Alt BlackCheckMate](./ReadmeImages/BlackCheckMate.png)
+![Alt BlackTimerEnd](./ReadmeImages/BlackTimerEnd.png)
 
 ## Authors
 
