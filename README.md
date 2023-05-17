@@ -53,16 +53,27 @@ Pawn promotion: if the pawn reach the other end of the board , it can be replace
 - Knight: can  move  in  an  L  shape,  with  two  squares  horizontally  or  vertically,  and then  three  squares  in  the  perpendicular  direction.
 
 ## ScreenShots
+### LoginPage
 ![Alt LoginPage](./ReadmeImages/LoginPage.png)
+### LaunchPage
 ![Alt LaunchPage](./ReadmeImages/LaunchPage.png)
+### Settings
 ![Alt Settings](./ReadmeImages/Settings.png)
+### Board
 ![Alt Board](./ReadmeImages/Board.png)
+### PawnMovement
 ![Alt PawnMovement](./ReadmeImages/PawnMovement.png)
+### BishopMovement
 ![Alt BishopMovement](./ReadmeImages/BishopMovement.png)
+### BlackKnightMovement
 ![Alt BlackKnightMovement](./ReadmeImages/BlackKnightMovement.png)
+### WhitePawnPromotion
 ![Alt WhitePawnPromotion](./ReadmeImages/WhitePawnPromotion.png)
+### PromotedWhitePawn
 ![Alt PromotedWhitePawn](./ReadmeImages/PromotedWhitePawn.png)
+### BlackCheckMate
 ![Alt BlackCheckMate](./ReadmeImages/BlackCheckMate.png)
+### BlackTimerEnd
 ![Alt BlackTimerEnd](./ReadmeImages/BlackTimerEnd.png)
 
 ## Authors
