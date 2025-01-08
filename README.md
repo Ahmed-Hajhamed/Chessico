@@ -1,8 +1,5 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/s-rx3t9_)
-
 # Chessico
-
-It is a chess game but not like any normal chess , it has some modifications as for example the bishop has a new special move, some of the other pieces has some modifications that will be discussed downwards
+An offline Chess Games with some modified rules.
 
 ## Table of Contents
 
